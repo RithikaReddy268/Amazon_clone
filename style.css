@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: border-box;
+}
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo{
+    height: 50px;
+    width: 110px;
+}
+.logo{
+    background-image: url(logo.png);
+    background-size:cover;
+    height: 50px;
+    width: 110px;
+}
+.border{
+    border: 2px solid transparent;
+}
+.border :hover{
+    border: 1px solid white;
+}
+.one{
+    color: #cccccc;
+    font-size: 0.75rem;
+    margin-left: 15px;
+}
+.two{
+    font-size: 1rem;
+    margin-left: 3px;
+}
+.addicon{
+    display: flex;
+}
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    height: 40px;
+    width: 620px;
+    background-color:rgba(245, 171, 60, 0.99);
+    border-radius: 4px;
+}
+.selectt{
+    background-color: #f3f3f3;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius:4px;
+    border: none;
+}
+.inputt{
+    width:100%;
+    font-size: 1.25rem;
+    border: none;
+}
+.searchicon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    color: #0f1111;
+}
+.ek{
+    font-size: 12px;
+}
+.to{
+    font-size: 14px;
+    font-weight: 700px;
+}
+.nav-search :hover{
+    border: 2px solid orange;
+}
+.cart i{
+    font-size: 1.3rem;
+}
+.cart{
+    font-size: 0.85rem;
+    font-weight: 700px;
+}
+.panel{
+    height: 40px;
+    background-color: #083a45;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.ops p{
+    display: inline;
+    margin-left: 15px;
+}
+.ops{
+    width: 70%;
+    font-size: 0.8rem;
+}
+.deals{
+    font-size: 0.9rem;
+    font-weight: 700px;
+}
+.bg{
+    background-image:url(bgimg.jpg);
+    background-size: cover;
+    height: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.msg{
+    background-color: white;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    margin-bottom: 25px;
+    font-size: 0.85rem;
+}
+.msg a{
+    color: #007185;
+}
+.shop{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: rgb(125, 17, 77);
+}
+.box{
+    height: 400px;
+    border: 2px solid black;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin: 10px;
+}
+.img{
+    background-image: url(gmg.jpg);
+    background-size: cover;
+    height: 320px;
+}
+.content{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.box p{
+   color: #007185;
+}
+.img2{
+    background-image: url(acces.webp);
+    background-size: cover;
+    height: 320px;
+}
+.img3{
+    background-image: url(fash.jpg);
+    background-size: cover;
+    height: 320px;
+}
+.img4{
+    background-image: url(newyr.jpg);
+    background-size: cover;
+    height: 320px;
+}
+.img5{
+    background-image: url(hmes.jpeg);
+    background-size: cover;
+    height: 320px;
+}
+.img6{
+    background-image: url(care.webp);
+    background-size: cover;
+    height: 320px;
+}
+.img7{
+    background-image: url(toys.jpeg);
+    background-size: cover;
+    height: 320px;
+}
+.img8{
+    background-image: url(acc.jpeg);
+    background-size: cover;
+    height: 320px;
+}
+footer{
+    margin-top: 15px
+}
+.panel1{
+    background-color: #37475a;
+    height:50px;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+}
+.panel2{
+    display: flex;
+    height: 280px;
+    background-color: #2b5465;
+    color: white;
+    justify-content: space-evenly;
+    padding-top: 50px;
+}
+ul a{
+    display: block;
+    font-size: 0.8rem;
+    margin-top: 10px;
+    color: #dddddd;
+}
+a:hover{
+    text-decoration: underline;
+}
+.panel3{
+    height:70px;
+    background-color: #2b5465;
+    border-top: 0.5px solid #dddddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.log{
+    background-image: url(logo.png);
+    background-size:cover;
+    height: 50px;
+    width: 110px;
+    margin-right: 150px;
+}
+button{
+    background-color: #2b5465;
+    color: white;
+    height: 50px;
+    width: 110px;
+    border: 1px solid #dddddd;
+    margin-right: 20px;
+}
+.u{
+    display: flex;
+    align-items: center;
+}
+.panel4{
+    background-color: #272e38;
+    color: white;
+    height: 50px;
+    padding-top: 20px;
+    font-size: 0.75rem;
+    text-align: center;
+}
+.copyright{
+    padding-top: 5px;   
+}
